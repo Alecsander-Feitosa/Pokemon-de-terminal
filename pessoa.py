@@ -1,6 +1,23 @@
+"""
+                                        # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                                        #                               Framark-Gestão                                 #
+                                        #                           Autor: Alecsander Feitosa                          #
+                                        #                           Data de criação: 10/01/2025                        #
+                                        #       Descrição: Projeto pessoal para criação de um pokemon de termianl      #
+                                        #                                                                              #
+                                        #                                  Uso: LIvre                                  #
+                                        #\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+"""
+
+
+
+
+
+
+
 import random
 import time
-from Pokemon import*                                                     #(from) arquivo onde quero pegar (import)oque eu quero  (*)sinal para importar tudo
+from Pokemon import*                                                     
 
 
 NOMES = ["Maria", "Joao", "isabela", "Geronimo", "Fransisco", "Ricardo",   #lista de nomes 
@@ -204,6 +221,7 @@ class inimigo(PESSOA):
             super().__init__(nome, pokemons= pokemons)
                  
    
+
 
 
 
