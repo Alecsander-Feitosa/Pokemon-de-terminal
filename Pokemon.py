@@ -1,3 +1,18 @@
+"""
+                                        # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                                        #                               Framark-Gestão                                 #
+                                        #                           Autor: Alecsander Feitosa                          #
+                                        #                           Data de criação: 10/01/2025                        #
+                                        #       Descrição: Projeto pessoal para criação de um pokemon de termianl      #
+                                        #                                                                              #
+                                        #                                  Uso: LIvre                                  #
+                                        #\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+"""
+
+
+
+
+
 import time
 import random
 
@@ -73,6 +88,7 @@ class PokemonAgua(POKEMON):                                                     
     def atacar(self, POKEMON):                                                          #def-Ataque
         print("{} lançou um jato de agua em {}".format (self, POKEMON))  
         return super().atacar(POKEMON)
+
 
 
 
