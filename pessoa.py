@@ -1,6 +1,6 @@
 """
                                         # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-                                        #                               Pokemo game (shell)                            #
+                                        #                               Pokemon game (shell)                           #
                                         #                           Autor: Alecsander Feitosa                          #
                                         #                           Data de criação: 10/01/2025                        #
                                         #       Descrição: Projeto pessoal para criação de um pokemon de termianl      #
@@ -221,6 +221,7 @@ class inimigo(PESSOA):
             super().__init__(nome, pokemons= pokemons)
                  
    
+
 
 
 
